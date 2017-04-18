@@ -1,0 +1,102 @@
+body{
+	background-color: rgb(51,51,51);
+	color: rgb(136,145,159);
+font-family: Arial;
+}  
+h2{
+margin-top: 3px;
+margin-bottom: 3px;
+}
+input{
+ border-radius: 8px;
+}
+
+#container,#formulaire{
+	margin-right: auto;
+	margin-left: auto;
+
+} 
+#container{
+      	background-color: rgb(149,151,157);
+	    width: 420px;
+	    height: 670px;
+	    display: flex;	    
+}
+#formulaire {		
+	    background-color: #fefefe;
+        width: 290px;
+		height: 570px;
+		margin-top: 50px;		 
+      }
+ 
+#formulaire form div,h1{
+
+               padding-left:5px; 
+               border-radius: 8px;
+                margin: 5px;
+                margin-right: 15px;
+                margin-left: 15px;
+              padding-bottom: 5px;   
+             padding-right:5px;
+             padding-top: 2px; 
+             height: 50px;
+      }
+ 
+#formulaire form .form_niv0{
+	 	  font-size: 8px;
+ background-color: rgb(241,241,241);
+ }
+ #formulaire form .form_niv0:hover{
+	 	  
+ background-color: rgb(254,245,190);
+ }
+#formulaire form .form_niv1{
+	 	 	  font-size: 8px;
+              height: 80px;
+ background-color: rgb(241,241,241);
+}
+ #formulaire form .form_niv1:hover{
+	 	  
+ background-color: rgb(254,245,190);
+ }
+#formulaire form .form_niv1 input{
+	 	 	  margin-top: 5px;
+  }
+#formulaire form .form_niv2{
+	 	 	  font-size: 14px;
+	 	 	  display: flex;
+	 	 	  justify-content: center;
+	 	 	   height: 30px;
+
+ }
+#formulaire form .form_niv2 a{
+	 	 	   color: rgb(110,152,217);
+               text-decoration: none;
+ }
+
+ #formulaire form .form_niv3{
+	 	 	  font-size: 15px;
+	 	 	  display: flex;
+	 	 	  justify-content: center;
+	 	 	  height: 30px; 
+              background-color: rgb(241,241,241);
+	 	 	  width: 90px;
+	 	 	  margin-right: auto;
+	 	 	  margin-left: auto;
+  }
+#formulaire form .form_niv3 input{
+	font-size: 15px;
+ 	 	 	  width: 80px;	
+  	 	 	  background-color: #fefefe;
+  	 	 	  color: rgb(136,145,159);
+
+   }
+ 
+#formulaire form .form_niv0   input{
+	width: 98%;
+   height: 18px;
+}
+#formulaire form .form_niv1   input{
+	width: 98%;
+   height: 18px;
+}
